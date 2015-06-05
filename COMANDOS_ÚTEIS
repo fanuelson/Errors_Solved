@@ -1,0 +1,5 @@
+REMOVE UM DIRETORIO E SEUS ARQUIVOS
+rm -R <diretorio>
+
+MUDA NOME DE ARQUIVO
+mv <nomeArquivo> <novoNomeArquivo>

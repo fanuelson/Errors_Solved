@@ -1,0 +1,4 @@
+Abrir terminal e digitar
+
+/etc/init.d/mysql stop
+sudo dpkg-reconfigure mysql-server-5.5

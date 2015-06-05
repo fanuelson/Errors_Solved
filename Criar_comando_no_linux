@@ -1,0 +1,12 @@
+para ser executado sem o "sh"
+
+criar um arquivo sem extensão de tipo e adicionar no topo:
+#!/bin/bash
+
+editar o arquivo com os códigos desejados
+
+colocar permissão de execução
+
+sudo chmod +x <nome do arquivo>
+
+copiar para a pasta /usr/bin

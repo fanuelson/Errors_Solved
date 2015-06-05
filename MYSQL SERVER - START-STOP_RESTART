@@ -1,0 +1,8 @@
+PARA STARTAR MYSQL SERVER:
+sudo start mysql
+
+PARAR MYSQL SERVER:
+sudo stop mysql
+
+REINICIAR MYSQL SERVER
+sudo restart mysql

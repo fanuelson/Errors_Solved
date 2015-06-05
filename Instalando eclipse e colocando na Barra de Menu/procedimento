@@ -1,0 +1,36 @@
+3. Extract Eclipse to /opt/ for global use
+
+Press Ctrl+Alt+T on keyboard to open the terminal. When it opens, run the command below to extract Eclipse to /opt/:
+TERMINAL:
+gksudo nautilus
+
+Agora procurar a pasta onde ta o eclipse e extrair para opt
+
+cd /opt/ && sudo tar -zxvf ~/Downloads/eclipse-*.tar.gz
+You may replace “eclipse-*.tar.gz” (without quote) to the exact package name if the command does not work.
+
+Don’t like Linux commands? You can do this by opening Nautilus file browser via root: Press Alt+F2 -> run gksudo nautilus.
+
+Once done, you should see the eclipse folder under /opt/ directory.
+
+4. Create a launcher shortcut for Eclipse
+
+Press Ctrl+Alt+T, paste below command into the terminal and hit enter.
+
+gksudo gedit /usr/share/applications/eclipse.desktop
+Above command will create and open the launcher file for eclipse with gedit text editor.
+
+Paste below content into the opened file and save it.
+
+[Desktop Entry]
+Name=Eclipse 4
+Type=Application
+Exec=/opt/eclipse/eclipse
+Terminal=false
+Icon=/opt/eclipse/icon.xpm
+Comment=Integrated Development Environment
+NoDisplay=false
+Categories=Development;IDE;
+Name[en]=Eclipse
+
+Finally open Eclipse from Unity Dash search results and enjoy!

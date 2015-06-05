@@ -1,0 +1,30 @@
+Add Repository
+
+You may add this repo to your apt sources via the following commands:
+
+sudo apt-add-repository ppa:ubuntu-mate-dev/ppa
+sudo apt-add-repository ppa:ubuntu-mate-dev/trusty-mate
+Install MATE 1.8.1
+
+First make sure your package list and packages are up-to-date by running:
+
+sudo apt-get update
+sudo apt-get upgrade
+You can choose to install Vanilla MATE by picking one of the apt-get options below.
+
+This will install the base packages required for a minimal MATE desktop
+sudo apt-get install mate-desktop-environment-core
+
+This will install the complete MATE desktop
+sudo apt-get install mate-desktop-environment
+
+This will install the complete MATE desktop including a few extras (Most Users Will Want This)
+sudo apt-get install mate-desktop-environment-extras
+
+Ubuntu MATE
+
+Alternatively you may choose to install Ubuntu MATE.
+
+Ubuntu MATE is a more comprehensive option that offers a slightly tweaked layout, configuration, and themes to integrate into Ubuntu in a more seamless fashion. This will install the complete MATE Desktop Environment as well as LightDM and numerous other applications to provide a full and well rounded desktop.
+
+sudo apt-get install ubuntu-mate-core ubuntu-mate-desktop

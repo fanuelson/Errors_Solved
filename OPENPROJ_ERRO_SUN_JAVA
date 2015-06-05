@@ -1,0 +1,9 @@
+APÓS O DEB INSTALADO
+
+Open $HOME/.openproj/run.conf and Change
+
+JAVA_OPTS="-Xms128m -Xmx768m"
+
+To
+
+JAVA_OPTS="-Djava.vendor=Sun -Xms128m -Xmx768m"

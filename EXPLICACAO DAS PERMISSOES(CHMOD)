@@ -1,0 +1,21 @@
+r: significa permissão de leitura (read);
+w: significa permissão de gravação (write);
+x: significa permissão de execução (execution);
+-: significa permissão desabilitada.
+
+---: nenhuma permissão;
+r--: permissão de leitura;
+r-x: leitura e execução;
+rw-: leitura e gravação;
+rwx: leitura, gravação e execução.
+
+PRIMEIRA LETRA INDICA O TIPO DO ARQUIVO, SE FOR 'd' INDICA UM DIRETORIO
+
+POR EXEMPLO
+drwxr-xr-x 19 root     root           4096 Jan  5 16:56 ../
+   
+
+TIPO   DONO    GRUPO    OUTROS
+d      rwx      r-x      r-x
+
+

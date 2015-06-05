@@ -1,0 +1,25 @@
+Passo 1. Abra um terminal (Usando o Dash ou pressionando as teclas CTRL+ALT+T);
+Passo 2. execute o seguinte comando:
+
+sudo update-grub
+
+SE NÃO RESOLVER
+
+
+
+sudo gedit /etc/default/grub
+
+MUDE A LINHA:
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
+
+PARA
+
+GRUB_CMDLINE_LINUX_DEFAULT="quiet acpi=force"
+
+OU
+
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi=force"
+
+ENTAO EXECUTE
+
+sudo update-grub

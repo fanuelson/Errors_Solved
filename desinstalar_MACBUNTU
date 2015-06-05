@@ -1,0 +1,6 @@
+$ wget https://downloads.sourceforge.net/project/macbuntu/macbuntu-10.04/v2.0/uninstall.sh.tar.gz -O /tmp/uninstall.sh.tar.gz
+$ tar xzvf /tmp/uninstall.sh.tar.gz -C /tmp 
+$ cd /tmp/
+$ ./uninstall.sh
+
+Leia mais em: http://www.baixaki.com.br/linux/download/macbuntu.htm#ixzz3bQkMPmfj
