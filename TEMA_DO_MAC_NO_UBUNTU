@@ -1,0 +1,31 @@
+sudo add-apt-repository ppa:noobslab/themes
+
+sudo apt-get update
+
+sudo apt-get install mac-ithemes-v3
+
+sudo apt-get install mac-icons-v3
+
+-----INSTALAR UBUNTU TWEAK
+
+sudo add-apt-repository ppa:tualatrix/ppa
+
+sudo apt-get update
+
+sudo apt-get install ubuntu-tweak
+
+
+-----CONFIG DO TWEAK (Menu->Tweaks->Theme)
+
+Tema do Gtk: Mbuntu-iB
+Icon Theme: Mbuntu-XL
+Cursor Theme: DMZ-White
+Window Theme: Ambiance
+
+---------JANELAS GELATINOSAS
+
+INSTALAR O COMPIZCONFIG
+
+sudo apt-get install compizconfig-settings-manager
+
+sudo apt-get install compiz-plugins-extra
