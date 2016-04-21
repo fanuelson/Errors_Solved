@@ -1,5 +1,5 @@
 CHANGE JENKINS PORT
 
-sudo defaults write /Library/Preferences/org.jenkins-ci httpPort
+sudo defaults write /Library/Preferences/org.jenkins-ci httpPort <porta>
 sudo launchctl unload /Library/LaunchDaemons/org.jenkins-ci.plis
 sudo launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist 
